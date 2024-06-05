@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ion-input {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+ion-button {
+  width: 80%;
+  max-width: 300px;
+}
